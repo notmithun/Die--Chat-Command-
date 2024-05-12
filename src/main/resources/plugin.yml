@@ -1,0 +1,9 @@
+name: Die Command
+version: '${project.version}'
+main: me.notmithun.diecommand.DieCommand
+api-version: '1.19'
+
+commands:
+  die:
+    description: A die command. Used to kill yourself and cannot be used to kill others.
+    usage: "/<command>"
